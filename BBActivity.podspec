@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BBActivity/Classes/**/*'
   
+  s.xcconfig = { 'ARCHS' => '$(ARCHS_STANDARD)' }
+  
   # s.resource_bundles = {
   #   'BBActivity' => ['BBActivity/Assets/*.png']
   # }
