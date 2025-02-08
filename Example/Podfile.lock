@@ -1,0 +1,16 @@
+PODS:
+  - BBActivity (0.1.0)
+
+DEPENDENCIES:
+  - BBActivity (from `../`)
+
+EXTERNAL SOURCES:
+  BBActivity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BBActivity: a2465cff7a7b50e4373370ac077763e251189a89
+
+PODFILE CHECKSUM: 15ac6e5e60e5cf83dc3518cc073513596bd5554e
+
+COCOAPODS: 1.16.2
