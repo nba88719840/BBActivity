@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import BBActivity
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let manager = ActivityManager.shared
+        print("\(manager.isLogin)")
     }
 
     override func didReceiveMemoryWarning() {

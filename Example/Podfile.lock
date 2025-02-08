@@ -1,5 +1,5 @@
 PODS:
-  - BBActivity (0.1.1)
+  - BBActivity (0.1.5)
 
 DEPENDENCIES:
   - BBActivity (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BBActivity: e67eec85747adfc48d55aa5bebd3ce15e9e32de8
+  BBActivity: aa08ca8f65dd69149470c12204abccffb50d420a
 
 PODFILE CHECKSUM: 15ac6e5e60e5cf83dc3518cc073513596bd5554e
 
