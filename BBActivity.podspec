@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BBActivity'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'BBActivity is an Activity component'
 
 # This description is used to generate tags and improve search results.
@@ -29,9 +29,6 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '5.9'
   s.ios.deployment_target = '13.0'
-  s.osx.deployment_target = '10.15'
-  s.tvos.deployment_target = '13.0'
-  s.visionos.deployment_target = "1.0"
 
   s.source_files = 'BBActivity/Classes/**/*'
   
