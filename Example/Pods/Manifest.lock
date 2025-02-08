@@ -1,16 +1,23 @@
 PODS:
-  - BBActivity (0.1.5)
+  - BBActivity (0.1.8):
+    - SnapKit
+  - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - BBActivity (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   BBActivity:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BBActivity: aa08ca8f65dd69149470c12204abccffb50d420a
+  BBActivity: 4f8cc7b092d6efc9830cee99103c594831653f98
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: 15ac6e5e60e5cf83dc3518cc073513596bd5554e
+PODFILE CHECKSUM: 6db26abdc243ef37f38c162b8781717d212f5cf6
 
 COCOAPODS: 1.16.2

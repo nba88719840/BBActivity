@@ -1,6 +1,6 @@
 {
   "name": "BBActivity",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "summary": "BBActivity is an Activity component",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/nba88719840/BBActivity",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/nba88719840/BBActivity.git",
-    "tag": "0.1.5"
+    "tag": "0.1.8"
   },
   "swift_versions": "5.9",
   "platforms": {
@@ -22,6 +22,11 @@
   "source_files": "BBActivity/Classes/**/*",
   "xcconfig": {
     "ARCHS": "$(ARCHS_STANDARD)"
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ]
   },
   "swift_version": "5.9"
 }

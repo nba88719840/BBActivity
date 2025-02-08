@@ -8,6 +8,7 @@
 
 import UIKit
 import BBActivity
+import SnapKit
 
 class ViewController: UIViewController {
 
@@ -16,6 +17,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let manager = ActivityManager.shared
         print("\(manager.isLogin)")
+        let btn: UIButton = UIButton(type: .custom)
+        view.addSubview(btn)
+        btn.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
     }
 
     override func didReceiveMemoryWarning() {
