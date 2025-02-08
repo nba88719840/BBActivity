@@ -27,8 +27,11 @@ TODO: Add long description of the pod here.
   s.author           = { 'nba88719840' => '1009105480@qq.com' }
   s.source           = { :git => 'https://github.com/nba88719840/BBActivity.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.9'
+  s.ios.deployment_target = '13.0'
+  s.osx.deployment_target = '10.15'
+  s.tvos.deployment_target = '13.0'
+  s.visionos.deployment_target = "1.0"
 
   s.source_files = 'BBActivity/Classes/**/*'
   
