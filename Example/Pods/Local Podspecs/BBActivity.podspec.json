@@ -1,6 +1,6 @@
 {
   "name": "BBActivity",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "summary": "BBActivity is an Activity component",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/nba88719840/BBActivity",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/nba88719840/BBActivity.git",
-    "tag": "0.1.8"
+    "tag": "0.1.9"
   },
   "swift_versions": "5.9",
   "platforms": {
@@ -25,6 +25,18 @@
   },
   "dependencies": {
     "SnapKit": [
+
+    ],
+    "ActiveLabel": [
+
+    ],
+    "JXSegmentedView": [
+
+    ],
+    "JXPagingView/Paging": [
+
+    ],
+    "RxBlocking": [
 
     ]
   },
