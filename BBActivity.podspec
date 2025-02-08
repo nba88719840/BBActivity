@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BBActivity'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'BBActivity is an Activity component'
 
 # This description is used to generate tags and improve search results.
