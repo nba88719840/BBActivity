@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BBActivity'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'BBActivity is an Activity component'
 
 # This description is used to generate tags and improve search results.
@@ -40,12 +40,12 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SnapKit'
-  s.dependency 'ActiveLabel'
-  s.dependency 'JXSegmentedView'
-  s.dependency 'JXPagingView/Paging'
+#  s.dependency 'SnapKit'
+#  s.dependency 'ActiveLabel'
+#  s.dependency 'JXSegmentedView'
+#  s.dependency 'JXPagingView/Paging'
 #  s.dependency 'JXPhotoBrowser'
 #  s.dependency 'RxSwift'
 #  s.dependency 'RxCocoa'
-  s.dependency 'RxBlocking'
+#  s.dependency 'RxBlocking'
 end
